@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <title>Bidirectional grammars</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="spa.css"/>
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <a href="index.html">home</a>
+      <br/>
+      <a href="research.html">research &#171;</a>
+      <br/>
+      <a href="software.html">software</a>
+      <br/>
+      <a href="writing.html">writing</a>
+      <br/>
+      <a href="teaching.html">teaching</a>
+      <br/>
+      <a href="biography.html">biography</a>
+      <br/>
+      <a href="contact.html">contact</a>
+    </div>
+
+    <div class="main">
+      <div class="banner">
+	<h1>Bidirectional grammars</h1>
+      </div>
+
+      <div class="page">
+	<p>
+	  I became interested in the problem of bidirectional processing when I
+	  constructed a conversational agent (<a href="software.html">Seal.bot</a>)
+	  with an automated reasoner as
+	  back end, for use in a class that I teach.  Standard textbooks
+	  contained familiar solutions for everything except generation - and,
+	  in particular, how to reverse the complicated pipeline that leads from
+	  parse tree to Clause Normal Form (CNF), which provides the basic input and
+	  output for a resolution-based reasoner.
+	</p>
+	<p>
+	  I invented my own solution, which involved short-circuiting the pipeline.
+	  The idea is to use a single parse tree that
+	  simultaneously represents both the (LF) structure of the English
+	  sentence and the syntactic parse tree of the CNF translation.
+	  (One may view this as a particularly simple instance of tree transduction.)
+	  Then generation is reduced to parsing: generation is implemented by running
+	  the same parser with the same grammar as in parsing, but giving it
+	  the CNF words rather than the English words as input
+	  [<a href="writing.html#77">77</a>].
+	</p>
+	<p>
+	  I have collaborated with Ezra Keshet in examining the semantic
+	  consequences of using CNF for translation.
+	  Other next steps are to induce a large-scale grammar to drive the
+	  parser/generator; to substantially extend the semantic fragment,
+	  especially to generalized quantifiers; and to add
+	  pragmatics.
+	</p>
+	<ul>
+	  <li>
+	    [<a href="writing.html#77">77</a>]
+	    <a href="p111-v11.pdf">A bidirectional mapping between English and CNF-based reasoners</a>
+	    (<i>SCIL,</i> 2017)
+	  </li>
+	</ul>
+
+      </div>
+    </div>
+
+  </body>
+</html>

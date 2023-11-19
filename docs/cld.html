@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>CLD</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="spa.css"/>
+  </head>
+  <body>
+
+    <div class="sidebar">
+      <a href="index.html">home</a>
+      <br/>
+      <a href="research.html">research &#171;</a>
+      <br/>
+      <a href="software.html">software</a>
+      <br/>
+      <a href="writing.html">writing</a>
+      <br/>
+      <a href="teaching.html">teaching</a>
+      <br/>
+      <a href="biography.html">biography</a>
+      <br/>
+      <a href="contact.html">contact</a>
+    </div>
+
+    <div class="main">
+      <div class="banner">
+	<h1>CLD</h1>
+      </div>
+
+      <div class="page">
+	<p>
+	  A first step (!) in developing an <a href="igg.html">inductive general grammar</a> is to
+	  obtain complete digital representations of a sufficiently large number
+	  of languages.
+	  There are publicly-availabled annotated corpora (e.g., treebanks) for 70
+	  languages or so.  That represents about 1% of the world's languages,
+	  and most of those 70 come from a single language family
+	  (Indo-European).  One avenue toward obtaining digitizations of more
+	  languages (and, by definition, of low-resource languages) is to
+	  collaborate with speakers.  I have been developing software called CLD
+	  that is intended to support such collaboration.
+	</p>
+	<ul>
+	  <li>
+	    <a href="software.html">Seal download</a> - which includes CLD.
+	    Quick start:
+	    <ul>
+	      <li>Untar it, call the resulting directory $seal</li>
+	      <li>Put $seal/bin on your PATH, $seal/python on your PYTHONPATH</li>
+	      <li>
+		<code>$ cld foo.cld create_test</code> - creates two
+		subdirectories in the working directory, 'foo.cld' and 'media'.
+		They contain a tiny fake corpus.
+	      </li>
+	      <li>
+		<code>$ cld foo.cld</code> - starts a web server in Python at port
+		8000, that writes logging information to stdout, and opens a browser
+		window on localhost:8000.
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	    [<a href="writing.html#80">80</a>]
+	    <a href="p165-v1.pdf">CLD: Software for Computational Language Description</a>
+	    - a draft paper, likely to undergo further revision.
+	  </li>
+	</ul>
+
+      </div>
+    </div>
+
+  </body>
+</html>

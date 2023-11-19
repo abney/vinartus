@@ -1,0 +1,163 @@
+body {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 0px;
+  font-family: Optima,Geneva,Arial,Helvetica,Verdana,sans-serif;
+  font-weight: normal;
+  color: #505070;
+  background-color: #e8e8e8;
+  font-size: 14px;
+  line-height: 24px;
+}
+.main {
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: 0 0 20px #a8a8a8;
+  width: 660px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  border: 0px;
+  background-color: white;
+}
+.banner {
+  height: 120px;
+}
+.banner, .page {
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+}
+.page {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 15px;
+  padding-bottom: 80px;
+  color: white;
+#  color: #9fbfff;
+#  color: #6080c0;
+}
+h3 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  color: #6080c0;
+}
+a:visited {
+  color: #8060c0;
+}
+a {
+  text-decoration: underline;
+  color: #6080c0;
+}
+code {
+  color: green;
+  padding: 1px;
+  border: solid 1px #d0d8d0;
+  background: #faf8f4;
+}
+.source {
+  border: 1px solid #c7cfd5;
+  background: #f1f5f9;
+  margin: 20px 0;
+  padding: 8px;
+  text-align:left;
+}
+table.display {
+  border: 1px solid #606060;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+.display {
+  background: #f1f5f9;
+  border: 1px solid #606060;
+  padding: 5px;
+}
+.display td {
+  background: #f1f5f9;
+  margin: 0px;
+  border: 1px solid #808080;
+  padding: 3px;
+}
+.display th {
+  background: #d0d0d0;
+  margin: 0px;
+  border: 1px solid #808080;
+  padding: 3px;
+}
+.head td {
+    background-color: #d0d0d0;
+    text-align: center;
+}
+.odd td {
+    background: #f0fff4;
+}
+.current {
+    background-color: #ffffc0;
+}
+.current td {
+    background-color: #ffffc0;
+}
+.toc {
+    border: 1px solid #c0c0c0;
+    background-color: #ffffe0;
+}
+.sidebar {
+  box-shadow: 0 0 20px #a8a8a8;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  color: #d0e4ff;
+  padding: 20px;
+  padding-left: 30px;
+  background-color: #312c28;
+  font-size: 13px;
+  font-variant: small-caps;
+  line-height: 24px;
+}
+.sidebar a {
+  text-decoration: none;
+  color: white;
+#  color: #d0e4ff;
+#  color: #9fbfff;
+}
+.sidebar a:visited {
+#  color: #d0e4ff;
+#   color: #9fbfff;
+  color: white;
+}
+.bibitem td {
+  padding-bottom: 20px;
+}
+.bibnote {
+  font-size: 13px;
+  line-height: 18px;
+  font-style: italic;
+}
+.grid {
+  padding-top: 10px;
+}
+.grid td {
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 24px;
+}
+.minorbreak {
+  margin-top: 30px;
+}
+.cite {
+  text-decoration: none;
+}
+.rm {
+  font-style: normal;
+}
