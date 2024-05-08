@@ -19,7 +19,7 @@
 	  console.log('Selkie installed');
 
 	  // Load and run __main__.py
-	  let response = await fetch("http://localhost:8000/__main__.py");
+	  let response = await fetch("__main__.py");
 	  let contents = await response.text();
 	  console.log('__main__ loaded');
           pyodide.runPython(contents);
